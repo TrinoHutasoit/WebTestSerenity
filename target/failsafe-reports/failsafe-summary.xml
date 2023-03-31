@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<failsafe-summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/failsafe-summary.xsd" result="254" timeout="false">
+    <completed>0</completed>
+    <errors>0</errors>
+    <failures>0</failures>
+    <skipped>0</skipped>
+    <failureMessage>org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd &quot;/Users/koinworks-staff/Documents/BATCH IV/Web_Test&quot; &amp;&amp; /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home/jre/bin/java -jar &apos;/Users/koinworks-staff/Documents/BATCH IV/Web_Test/target/surefire/surefirebooter6537653804807790882.jar&apos; &apos;/Users/koinworks-staff/Documents/BATCH IV/Web_Test/target/surefire&apos; 2023-03-31T14-10-46_761-jvmRun1 surefire2632497666504515984tmp surefire_09089032313502792935tmp
+Error occurred in starting fork, check output in log
+Process Exit Code: 134
+Crashed tests:
+login
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:748)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:305)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:265)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1314)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1159)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:932)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:342)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:330)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:213)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:175)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:76)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:163)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:160)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:260)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:172)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:100)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:821)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:270)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+</failureMessage>
+</failsafe-summary>

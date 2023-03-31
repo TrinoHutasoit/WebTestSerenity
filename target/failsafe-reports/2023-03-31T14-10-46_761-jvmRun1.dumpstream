@@ -1,0 +1,54 @@
+# Created at 2023-03-31T14:10:50.546
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.546
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# A fatal error has been detected by the Java Runtime Environment:'.
+
+# Created at 2023-03-31T14:10:50.547
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.547
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#  SIGSEGV (0xb) at pc=0x000000010836fe9c, pid=5616, tid=0x0000000000006503'.
+
+# Created at 2023-03-31T14:10:50.547
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.547
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# JRE version: OpenJDK Runtime Environment (8.0_362) (build 1.8.0_362-bre_2023_01_22_03_30-b00)'.
+
+# Created at 2023-03-31T14:10:50.548
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Java VM: OpenJDK 64-Bit Server VM (25.362-b00 mixed mode bsd-amd64 compressed oops)'.
+
+# Created at 2023-03-31T14:10:50.548
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Problematic frame:'.
+
+# Created at 2023-03-31T14:10:50.548
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# V  [libjvm.dylib+0x548e9c]  Unsafe_SetByte+0x61'.
+
+# Created at 2023-03-31T14:10:50.548
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.549
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again'.
+
+# Created at 2023-03-31T14:10:50.549
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.549
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2023-03-31T14:10:50.549
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# /Users/koinworks-staff/Documents/BATCH IV/Web_Test/hs_err_pid5616.log'.
+
+# Created at 2023-03-31T14:10:50.554
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2023-03-31T14:10:50.555
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# If you would like to submit a bug report, please visit:'.
+
+# Created at 2023-03-31T14:10:50.555
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#   https://github.com/Homebrew/homebrew-core/issues'.
+
+# Created at 2023-03-31T14:10:50.555
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
